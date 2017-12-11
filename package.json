@@ -1,0 +1,29 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "description": "Direct message application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessyefuster/chat_app.git"
+  },
+  "keywords": [
+    "chat"
+  ],
+  "author": "Jessye Fuster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessyefuster/chat_app/issues"
+  },
+  "homepage": "https://github.com/jessyefuster/chat_app#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "moment": "^2.19.3",
+    "mustache": "^2.3.0",
+    "socket.io": "^2.0.4",
+    "underscore": "^1.8.3"
+  }
+}
